@@ -1,0 +1,41 @@
+{
+  "name": "ListChecker",
+  "author": {
+    "name": "ADP Marketplace",
+    "email": "developers@adp.com",
+    "url": "https://apps.adp.com"
+  },
+  "parameters": [
+
+    {
+      "name": "storeTasksFieldID",
+      "type": "number",
+      "required": true,
+      "default": 31548757
+    },
+    {
+      "name": "taskGroupNamesFieldID",
+      "type": "text",
+      "required": true,
+      "secure": false,
+      "default": 51849927
+    },
+    {
+      "name": "restrictByGroup",
+      "type": "text",
+      "required": true,
+      "secure": false,
+      "default": "Partner Journey"
+    }
+  ],
+  "defaultLocale": "en-US",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/iframe.html",
+      "new_ticket_sidebar": "assets/iframe.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}

@@ -1,0 +1,33 @@
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+ <link href="app.css" rel="stylesheet">
+ </head>
+<body>
+  <!-- https://github.com/zendesk/zendesk_app_framework_sdk -->
+    <script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <span class="logo"/> 	<div class="switch">
+		<input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round-flat" type="checkbox">
+		<label for="cmn-toggle-1"></label>
+	</div>
+    <div class="app-container">
+      <!--
+        <section class="navigation">
+          <ul class="nav nav-tabs">
+            <li class="assign"><a class="previous">{{previouskanbanstate}}</a></li>
+            <li class="manage"><a class="next" >{{nextkanbanstate}}</a></li>-->
+            <!-- <li class="add"><a class="add" >{{t "layout.addtasks"}}</a></li> -->
+            <!--<li class="pull-right"><a class="toggle-customfield" data-toggle="tooltip" title="Show Custom Field" ><i class="icon-minus"></i></a>-->
+           <!--</ul>
+        </section>-->
+
+          <section id="content"></section>
+
+    <!--<footer>Questions? <a href="#">Follow us on github</a></footer>-->
+    </div>
+</body>
+</html>

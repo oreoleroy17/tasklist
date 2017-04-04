@@ -1,0 +1,163 @@
+[
+  {
+
+  "Name": "backlog",
+  "listID": 0,
+  "Tasks": [
+     {
+        "id": "1",
+        "name": "Send kickoff call email",
+        "value": ""
+      },
+        {
+          "id": "2",
+          "name": "Schedule a kickoff call",
+          "value": ""
+        }
+  ]
+
+},
+{
+      "Name": "discovery",
+      "listID": 1,
+      "Tasks": [
+        {
+          "id": "1",
+          "name": "Setup security master user",
+          "value": ""
+        },
+        {
+          "id": "2",
+          "name": "Subscribe Partner OOID to CSR CAR",
+          "value": ""
+        },
+        {
+          "id": "3",
+          "name": "Host technical discovery call",
+          "value": ""
+        },
+        {
+          "id": "4",
+          "name": "Send follow up email with CSR registration invite",
+          "value": ""
+        }
+      ]
+    },
+    {
+          "Name": "credentials",
+          "listID": 2,
+          "Tasks": [
+            {
+              "id": "1",
+              "name": "Identify APIs for integration",
+              "value": ""
+            },
+            {
+              "id": "2",
+              "name": "Receive partner CSR",
+              "value": ""
+            },
+            {
+              "id": "3",
+              "name": "Send signed certificate to partner",
+              "value": ""
+            },
+            {
+              "id": "4",
+              "name": "Create CAR(s)",
+              "value": ""
+            },
+            {
+              "id": "5",
+              "name": "Consent to test account for B2B",
+              "value": ""
+            },
+            {
+              "id": "6",
+              "name": "Create and send credentials document",
+              "value": ""
+            }
+          ]
+      },
+      {
+            "Name": "integration",
+            "listID": 3,
+            "Tasks": [
+              {
+                "id": "1",
+                "name": "Setup touchpoint calls",
+                "value": ""
+              },
+              {
+                "id": "2",
+                "name": "Provide supporting developer portal docs",
+                "value": ""
+              },
+              {
+                "id": "3",
+                "name": "Test partner sandbox(es)",
+                "value": ""
+              },
+              {
+                "id": "4",
+                "name": "Verify B2B credentials read complete",
+                "value": ""
+              },
+              {
+                "id": "5",
+                "name": "Demo Integration",
+                "value": ""
+              }
+            ]
+        },
+        {
+              "Name": "gso",
+              "listID": 4,
+              "Tasks": [
+                {
+                  "id": "1",
+                  "name": "Submit to GSO",
+                  "value": ""
+                }
+
+              ]
+          },
+          {
+                "Name": "app_store_listing",
+                "listID": 5,
+                "Tasks": [
+                  {
+                    "id": "1",
+                    "name": "Verify App Store integration/listing",
+                    "value": ""
+                  }
+                ]
+            },
+            {
+                  "Name": "publish",
+                  "listID": 6,
+                  "Tasks": [
+                    {
+                      "id": "1",
+                      "name": "Partner submitted App Store listing",
+                      "value": ""
+                    }
+                  ]
+              },
+              {
+                    "Name": "done",
+                    "listID": 7,
+                    "Tasks": [
+                      {
+                        "id": "1",
+                        "name": "GSO approved",
+                        "value": ""
+                      },
+                      {
+                        "id": "4",
+                        "name": "App Store Published",
+                        "value": ""
+                      }
+                    ]
+                }
+]

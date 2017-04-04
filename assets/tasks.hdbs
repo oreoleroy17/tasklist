@@ -1,0 +1,17 @@
+  <div class='progress progress-bar-info progress-bar-striped active' style='width: {{percentSolved}}%' aria-valuenow='{{percentSolved}}' aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="formtitle">Kanban State: {{listname}} </div>
+  <div class="formsection">
+<form class="updateChecklist">
+    <input type="hidden" name="{{listname}}" value="listname" >
+
+<ul class="checkList wrap">
+    {{#each tasks}}​
+    <li><input class="css-checkbox lrg" type="checkbox" name="{{this.name}}" id="{{this.id}}" value="{{this.value}}" {{ this.checked }}> <label for="{{this.id}}" class="css-label lrg " id="{{this.id}}">{{this.name}}{{#if this.date}} - {{this.date}}{{/if}}</label>
+     {{/each}}
+</ul>
+              {{!-- <button class="btn btn-primary btn-large btn-block btn-inverse updateTasks" type="button" >Update Tasks</button> --}}
+</form>
+
+</div>
+{{#if alltaskscomplete}}<div class="tasks_complete">All Tasks Completed!</div>{{/if}}
+</div>
